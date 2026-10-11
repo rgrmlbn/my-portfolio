@@ -30,11 +30,13 @@ const contactMethods = [
 ];
 
 function ContactCard({ icon: Icon, type, value, href }) {
+  const isExternalLink = /^https?:\/\//i.test(href);
+
   return (
     <a
       href={href}
-      target="_blank"
-      rel="noopener"
+      target={isExternalLink ? "_blank" : undefined}
+      rel={isExternalLink ? "noopener noreferrer" : undefined}
       className="group flex items-center gap-4 rounded border border-[var(--color-ink)]/7 bg-[var(--color-white)] px-5 py-5 text-[var(--color-ink-dark)] no-underline transition-all duration-300 ease-out hover:-translate-y-[5px] hover:shadow-[0_8px_24px_rgba(0,0,0,0.05)] md:gap-[1.1rem] md:px-6 md:py-5"
     >
       <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded bg-[var(--color-mocha)] md:h-[46px] md:w-[46px]">

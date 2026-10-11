@@ -157,7 +157,7 @@ export default function Navbar() {
           <a
             href="https://github.com/rgrmlbn"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
             className="
               flex
               h-8
@@ -182,7 +182,7 @@ export default function Navbar() {
           <a
             href="https://www.linkedin.com/in/roger-malabanan-a617b2381/"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
             className="
               flex
               h-8
