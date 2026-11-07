@@ -21,6 +21,12 @@ const skillCategories = [
           "A high-level scripting language that powers interactivity and dynamic behavior on the web.",
       },
       {
+        name: "TypeScript",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+        tooltip:
+          "A strongly typed programming language built on JavaScript that adds static type checking to help developers build more reliable and maintainable applications.",
+      },
+      {
         name: "PHP",
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg",
         tooltip:
@@ -56,7 +62,7 @@ const skillCategories = [
           "A Java framework ecosystem including Spring Boot, Spring Security, and Spring Data JPA for building production-ready backend applications.",
       },
       {
-        name: "React JS",
+        name: "React",
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
         tooltip:
           "A JavaScript library for creating interactive user interfaces, especially single-page applications using reusable components.",
